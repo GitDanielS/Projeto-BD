@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(to bottom, #4c77ab, #23374d);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: linear-gradient(to bottom, #293f50, #1c2938);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+ nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+       display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* é usada para distribuir o espaço livre igualmente entre os elementos de um contêiner flexível, deixando espaçamento igual entre eles. */
+    margin: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #fff, #eaeaea);
+    border-radius: 5px;
+}
+
+footer {
+    background: linear-gradient(to bottom, #1c2938, #293f50);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
